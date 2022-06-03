@@ -15,7 +15,7 @@ while (i < 100)
 j = i % 10;
 k = i / 10;
 if (k < j)
-{	
+{
 putchar(k + '0');
 putchar(j + '0');
 if (i < 89)
